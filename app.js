@@ -24,7 +24,12 @@ client.on("message", (msg) => {
 
   for( let temp in array){
     if(msg.content.includes(temp)){
-      msg.reply(" Wrong Messages spooted"); 
+      msg.react("🅱️"); 
+      msg.react("🅰️"); 
+      msg.react("D"); 
+      msg.react("🅱️"); 
+      msg.react("🅾"); 
+      msg.react("🇾"); 
       return;
     }
   }
